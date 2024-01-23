@@ -1,6 +1,8 @@
 # Copyright 2020 Pants project contributors.
 # Licensed under the Apache License, Version 2.0 (see LICENSE).
 
+import colorama
+from colorama import Back, Fore
 from colors import green
 
 from helloworld.greet.greeting import Greeter
@@ -13,3 +15,6 @@ def say_hello() -> None:
 
 if __name__ == "__main__":
     say_hello()
+
+    colorama.init(autoreset=True)
+    print(Back.RED + Fore.BLUE + "Hello again!")
