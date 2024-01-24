@@ -41,7 +41,7 @@ enable_resolves = true
 default_resolve = "python-default"
 
 [python.resolves]
-python-default = "python-default.lock"
+python-default = "3rdparty/python-default.lock"
 
 [python-bootstrap]
 # We search for interpreters both on the $PATH and in the `$(pyenv root)/versions` folder.
