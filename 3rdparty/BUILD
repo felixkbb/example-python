@@ -6,3 +6,9 @@ python_requirements(
     source="requirements.txt",
     resolve="python-default",
 )
+
+python_requirements(
+    name="mypy",
+    source="requirements-mypy.txt",
+    resolve="mypy",
+)

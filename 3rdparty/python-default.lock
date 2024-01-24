@@ -12,9 +12,7 @@
 //     "ansicolors==1.1.8",
 //     "colorama",
 //     "pytest==7.1.3",
-//     "setuptools<57,>=56.2.0",
-//     "types-colorama",
-//     "types-setuptools<58,>=56.2.0"
+//     "setuptools<57,>=56.2.0"
 //   ],
 //   "manylinux": "manylinux2014",
 //   "requirement_constraints": [],
@@ -281,42 +279,6 @@
           "requires_dists": [],
           "requires_python": ">=3.7",
           "version": "2.0.1"
-        },
-        {
-          "artifacts": [
-            {
-              "algorithm": "sha256",
-              "hash": "18294bc18f60dc0b4895de8119964a5d895f5e180c2d1308fdd33009c0fa0f38",
-              "url": "https://files.pythonhosted.org/packages/a2/bc/23d722af8d8df0637eace588d80e5c12b80907f59d5e266181ea563a3c20/types_colorama-0.4.15.20240106-py3-none-any.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "49096b4c4cbfcaa11699a0470c36e4f5631f193fb980188e013ea64445d35656",
-              "url": "https://files.pythonhosted.org/packages/73/ec/bcc3062512f852681243b5b32c38609b8fa52ce42246c25011f4d231b8cd/types-colorama-0.4.15.20240106.tar.gz"
-            }
-          ],
-          "project_name": "types-colorama",
-          "requires_dists": [],
-          "requires_python": ">=3.8",
-          "version": "0.4.15.20240106"
-        },
-        {
-          "artifacts": [
-            {
-              "algorithm": "sha256",
-              "hash": "9660b8774b12cd61b448e2fd87a667c02e7ec13ce9f15171f1d49a4654c4df6a",
-              "url": "https://files.pythonhosted.org/packages/14/45/b8368a8c2d1dc4fa47eb4db980966e23edecbda16fab7a38186b076bbd4d/types_setuptools-57.4.18-py3-none-any.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "8ee03d823fe7fda0bd35faeae33d35cb5c25b497263e6a58b34c4cfd05f40bcf",
-              "url": "https://files.pythonhosted.org/packages/13/5e/3d46cd143913bd51dde973cd23b1d412de9662b08a3b8c213f26b265e6f1/types-setuptools-57.4.18.tar.gz"
-            }
-          ],
-          "project_name": "types-setuptools",
-          "requires_dists": [],
-          "requires_python": null,
-          "version": "57.4.18"
         }
       ],
       "platform_tag": null
@@ -330,9 +292,7 @@
     "ansicolors==1.1.8",
     "colorama",
     "pytest==7.1.3",
-    "setuptools<57,>=56.2.0",
-    "types-colorama",
-    "types-setuptools<58,>=56.2.0"
+    "setuptools<57,>=56.2.0"
   ],
   "requires_python": [
     "==3.9.*"

@@ -42,6 +42,11 @@ default_resolve = "python-default"
 
 [python.resolves]
 python-default = "3rdparty/python-default.lock"
+mypy = "3rdparty/mypy.lock"
+
+[mypy]
+install_from_resolve = "mypy"
+requirements = ["//3rdparty:mypy"]
 
 [python-bootstrap]
 # We search for interpreters both on the $PATH and in the `$(pyenv root)/versions` folder.
